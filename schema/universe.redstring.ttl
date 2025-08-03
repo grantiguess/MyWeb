@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://redstring.io/vocab/",
+    "redstring": "https://redstring.io/vocab/",
+    "Graph": "redstring:Graph",
+    "Node": "redstring:Node",
+    "Edge": "redstring:Edge",
+    "SpatialContext": "redstring:SpatialContext",
+    "defines": "redstring:defines",
+    "definedBy": "redstring:definedBy",
+    "expandsTo": "redstring:expandsTo",
+    "contractsFrom": "redstring:contractsFrom",
+    "contextualDefinition": "redstring:contextualDefinition",
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "color": "http://schema.org/color",
+    "image": "http://schema.org/image",
+    "thumbnail": "http://schema.org/thumbnail",
+    "contains": "http://purl.org/dc/terms/hasPart",
+    "partOf": "http://purl.org/dc/terms/isPartOf",
+    "composedOf": "http://purl.org/vocab/frbr/core#embodiment",
+    "composes": "http://purl.org/vocab/frbr/core#embodimentOf",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "subClassOf": "rdfs:subClassOf",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Statement": "rdf:Statement",
+    "subject": {
+      "@id": "rdf:subject",
+      "@type": "@id"
+    },
+    "predicate": {
+      "@id": "rdf:predicate",
+      "@type": "@id"
+    },
+    "object": {
+      "@id": "rdf:object",
+      "@type": "@id"
+    },
+    "x": "redstring:xCoordinate",
+    "y": "redstring:yCoordinate",
+    "scale": "redstring:scale",
+    "viewport": "redstring:viewport",
+    "expanded": "redstring:expanded",
+    "visible": "redstring:visible",
+    "saved": "redstring:bookmarked",
+    "active": "redstring:activeInContext",
+    "definitionIndex": "redstring:currentDefinitionIndex",
+    "contextKey": "redstring:contextKey",
+    "created": "http://purl.org/dc/terms/created",
+    "modified": "http://purl.org/dc/terms/modified",
+    "version": "http://purl.org/dc/terms/hasVersion",
+    "pod": "https://www.w3.org/ns/solid/terms#pod",
+    "webId": "http://xmlns.com/foaf/0.1/webId",
+    "references": "redstring:references",
+    "linkedThinking": "redstring:linkedThinking"
+  },
+  "@type": "redstring:CognitiveSpace",
+  "format": "redstring-v1.0.0",
+  "metadata": {
+    "created": "2025-08-03T23:59:37.749Z",
+    "modified": "2025-08-03T23:59:37.749Z",
+    "title": "Untitled Space",
+    "description": "",
+    "domain": null,
+    "userURIs": null
+  },
+  "spatialContext": {
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    },
+    "canvasSize": {
+      "width": 4000,
+      "height": 3000
+    }
+  },
+  "graphs": {},
+  "nodePrototypes": {},
+  "edges": {},
+  "userInterface": {
+    "openGraphIds": [],
+    "activeGraphId": null,
+    "activeDefinitionNodeId": null,
+    "expandedGraphIds": [],
+    "rightPanelTabs": [
+      {
+        "type": "home",
+        "isActive": true
+      }
+    ],
+    "savedNodeIds": [],
+    "savedGraphIds": []
+  }
+}
