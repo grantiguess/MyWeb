@@ -1,0 +1,4 @@
+@prefix fed: <https://redstring.io/vocab/federation/> .
+
+fed:Subscriptions a fed:SubscriptionList ;
+    fed:lastUpdated "2025-08-03T19:25:50.514Z" .
