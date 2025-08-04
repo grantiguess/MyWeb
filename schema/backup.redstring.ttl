@@ -58,8 +58,8 @@
   "@type": "redstring:CognitiveSpace",
   "format": "redstring-v1.0.0",
   "metadata": {
-    "created": "2025-08-03T23:59:37.749Z",
-    "modified": "2025-08-03T23:59:37.749Z",
+    "created": "2025-08-04T00:11:40.635Z",
+    "modified": "2025-08-04T00:11:40.635Z",
     "title": "Untitled Space",
     "description": "",
     "domain": null,
